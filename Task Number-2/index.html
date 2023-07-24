@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Form</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+  <h1 class="title">Registration Form</h1>
+  <div class="app">
+    <div class="form">
+      <h2>Personal Information</h2>
+      <form id="registrationForm">
+        <label for="name"> User's Name:</label>
+        <input type="text" id="name" required>
+        
+        <label for="email"> User's Email:</label>
+        <input type="email" id="email" required>
+        
+        <label for="website"> User's Website:</label>
+        <input type="url" id="website" required>
+        
+        <label for="image">User's Image:</label>
+        <input type="text" id="image" required>
+        
+        <label for="gender"> User's Gender:</label>
+        <select id="gender" required>
+          <option value="">Select</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
+        
+        <label for="skills"> User's Skills:</label>
+        <input type="text" id="skills" required>
+        <input type="submit" value="Submit">
+        
+      </form>
+    </div>
+    
+    <div class="output-data">
+      <h2>Registration Details</h2>
+      <table id="output">
+        <thead>
+          <tr>
+            <th>Description</th>
+            <th>Image</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

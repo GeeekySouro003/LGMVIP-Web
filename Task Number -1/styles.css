@@ -1,0 +1,109 @@
+
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background:url('https://wallpaperaccess.com/full/632787.jpg');
+    background-size: cover;
+}
+h1{
+  text-align: center;
+  margin-top: 8vh;
+  margin-right: 33vh;
+  font-family: Geneva;
+  color:#fcfcfcd9;
+  font-size: 36px;
+}
+.app{
+    width: 50%;
+    max-width: 450px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 30px;
+    padding: 30px 40px;
+}
+#new-task{
+    position: relative;
+    background-color: #ffffff;
+    padding: 30px 20px;
+    border-radius: 13px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    margin-top: 8vh;
+}
+#new-task input{
+    width: 65%;
+    height: 30px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 20px;
+}
+#new-task input:focus{
+    outline: none;
+    border-color: #0c3af1;
+}
+
+#new-task button{
+    position: relative;
+    float: right;
+    width: 22%;
+    height: 54px;
+    border-radius: 26px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+    background-color:rgb(68, 131, 249);
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+}
+#tasks{
+    background-color: #ffffff;
+    padding: 30px 20px;
+    margin-top: 60px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    width: 95%;
+    position: relative;
+}
+.task{
+    background-color: #ffffff;
+    height: 50px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #d1d3d4;
+    cursor: pointer;
+}
+.task span{
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+.task button{
+    background-color:#f80b36be;
+    color: #ffffff;
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.completed{
+    text-decoration: line-through;
+    text-decoration-thickness: 3%;
+}

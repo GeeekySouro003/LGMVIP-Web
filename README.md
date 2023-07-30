@@ -8,4 +8,4 @@ Welcome to the LGMVIP-Web repository! This is the place where I keep track of my
 This project contains a simple web app that shows a registration form using HTML, CSS, and JavaScript. The entered data is displayed on the same page beside the registration form.
 
 # Task-3 : Calculator
-This project contains a simple calculator using HTML, CSS,  and Javascript which helps in performing arithmetic operations.
+This project contains a simple calculator using ReactJs. I have implemented basic arithmetic operations to be performed by the calculator.
